@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iChochy/Algolia-Upload-Records.git"
+    "url": "git+https://github.com/lamy9813/Algolia-Upload-Records.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iChochy/Algolia-Upload-Records/issues"
+    "url": "https://github.com/lamy9813/Algolia-Upload-Records/issues"
   },
-  "homepage": "https://github.com/iChochy/Algolia-Upload-Records#readme",
+  "homepage": "https://github.com/lamy9813/Algolia-Upload-Records#readme",
   "dependencies": {
     "algoliasearch": "^4.9.3"
   }

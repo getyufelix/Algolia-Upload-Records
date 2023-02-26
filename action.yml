@@ -1,9 +1,9 @@
 name: 'Algolia Upload Records'
 description: 'Upload query data records to Algolia'
-author: iChochy@qq.com
+author: lamy9813@gmail.com
 branding:
   icon: 'upload-cloud'
   color: 'blue'
 runs:
-  using: 'node16'
+  using: 'node12'
   main: 'dist/index.js'
