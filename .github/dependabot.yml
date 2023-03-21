@@ -8,13 +8,13 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     allow:
-      - type: "direct"
+      - type: "semver"
         # Update to the latest version of Node.js 16.x
-        update-types: ["semver"]
-        # Only update packages that depend on Node.js
-        requires: "^10 || ^12 || ^14"
+        update-types: ["minor"]
+        # Only update packages that depend on Node.js 12.x
+        requires: "^12.0.0"
 
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
