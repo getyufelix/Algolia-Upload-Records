@@ -3,14 +3,17 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
-version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    environment:
-      NODE_VERSION: "16.x"
+    allow:
+      - type: "direct"
+        # Update to the latest version of Node.js 16.x
+        update-types: ["semver"]
+        # Only update packages that depend on Node.js
+        requires: "^10 || ^12 || ^14"
 
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
