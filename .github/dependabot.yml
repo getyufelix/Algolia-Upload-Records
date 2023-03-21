@@ -6,17 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    # Files stored in `app` directory
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 5
-    allow:
-      - dependency-type: "direct"
-        dependency-name: "node"
-        update-type: "semver"
-        update-schedule: "weekly"
-        from: "12.x"
-        to: "16.x"
 
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
