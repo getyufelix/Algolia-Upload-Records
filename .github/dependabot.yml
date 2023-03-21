@@ -6,10 +6,11 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    # Files stored in `app` directory
     directory: "/"
     schedule:
       interval: "weekly"
+    environment:
+      NODE_VERSION: "16.x"
 
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
