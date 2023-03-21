@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lamy9813/Algolia-Upload-Records#readme",
   "dependencies": {
-    "algoliasearch": "^4.9.3"
+    "algoliasearch": "^4.15.0"
   }
 }
